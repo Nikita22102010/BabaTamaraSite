@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BABA TAMARA</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="header">
+        <h1>BABA TAMARA</h1>
+    </div>
+    
+    <div class="seasons">
+        <div class="season" id="season1">
+            <h2>Сезон 1</h2>
+            <div class="video-container">
+                <button class="arrow" onclick="prevVideo('season1')">◄</button>
+                <iframe id="video-season1" src="https://www.youtube.com/watch?v=XSydUCMDXj4" frameborder="0" allowfullscreen></iframe>
+                <button class="arrow" onclick="nextVideo('season1')">►</button>
+            </div>
+        </div>
+
+        <div class="season" id="season2">
+            <h2>Сезон 2</h2>
+            <div class="video-container">
+                <button class="arrow" onclick="prevVideo('season2')">◄</button>
+                <iframe id="video-season2" src="https://www.youtube.com/watch?v=fbUR3ARU-qs" frameborder="0" allowfullscreen></iframe>
+                <button class="arrow" onclick="nextVideo('season2')">►</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
